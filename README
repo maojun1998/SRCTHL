@@ -1,0 +1,19 @@
+#Srcthl
+	srcthl is tools to format the src code to html format document.
+
+#Support platform
+	Windows NT , Linux, Freebsd...,Some Posix Systems are also support 
+	(see src/build.h Macro for this platform).
+
+#Build
+	Windows NT : Windows.mak using nmake tools.
+	Linux      : Linux.mak using gmake tools.
+	Freebsd    : Freebsd.mak using gmake tools.
+
+Execpt the Windows NT, the other system is also use the gmake(gnu make) tools.
+
+
+#Development
+	The src directory is the src code.
+	The doc directory is the doc.
+	README for readme.
